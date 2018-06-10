@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/optionsPickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <!-- 选择爱好 -->
+        <TextView
+            android:id="@+id/hobbyTv"
+            android:layout_width="0.0dp"
+            android:layout_weight="1"
+            android:layout_height="38dp"
+            android:gravity="center_vertical"
+            android:text="选择爱好"
+            android:textSize="16sp"
+            android:textColor="#3090d9"
+            android:drawableRight="@drawable/pickerview_jiantou"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="#E7E7E7"
+            android:layout_marginRight="10dp"
+            />
+
+        <!-- 选择地址 -->
+        <TextView
+            android:id="@+id/addressTv"
+            android:layout_width="0.0dp"
+            android:layout_weight="1"
+            android:layout_height="38dp"
+            android:gravity="center_vertical"
+            android:text="选择地址"
+            android:textSize="16sp"
+            android:textColor="#3090d9"
+            android:drawableRight="@drawable/pickerview_jiantou"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="#E7E7E7"
+            />
+
+    </LinearLayout>
+
+    <!-- 开始时间 -->
+    <TextView
+        android:id="@+id/startdateTv"
+        android:layout_alignLeft="@+id/optionsPickerLayout"
+        android:layout_below="@+id/optionsPickerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:gravity="center_vertical"
+        android:text="开始日期"
+        android:textSize="16sp"
+        android:textColor="#3090d9"
+        android:drawableLeft="@drawable/date_icon"
+        android:drawablePadding="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#E7E7E7"
+        />
+
+
+</RelativeLayout>

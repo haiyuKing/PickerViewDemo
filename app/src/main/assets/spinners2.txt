@@ -1,0 +1,12 @@
+﻿{
+	"spinnerList": [
+            {
+                "paraName": "北京市海淀区西北旺东路10号院百度科技园1号楼",
+                "paraValue": "baidu1"
+            },
+            {
+                "paraName": "中国北京海淀区上地十街10号百度大厦",
+                "paraValue": "baidu"
+            }
+	]
+}
